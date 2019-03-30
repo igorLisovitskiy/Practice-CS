@@ -16,6 +16,14 @@ namespace Practice1
             int \u006fidentifier = 2;
             int myVar = 2;
             int myVariable = 2;
+
+            //check presicion
+            const double pi = Math.PI;
+            double eNum = Math.E;
+            //WriteLine(pi); // 3.14159265358979
+            //WriteLine(eNum); // 2.71828182845905
+
+
         }
     }
 }
