@@ -10,6 +10,12 @@ namespace Practice1
     {
         static void Main(string[] args)
         {
+            // check var names
+            int uberflu = 2;
+            int _identifier = 2;
+            int \u006fidentifier = 2;
+            int myVar = 2;
+            int myVariable = 2;
         }
     }
 }
