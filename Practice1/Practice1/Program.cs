@@ -22,7 +22,10 @@ namespace Practice1
             double eNum = Math.E;
             //WriteLine(pi); // 3.14159265358979
             //WriteLine(eNum); // 2.71828182845905
-
+            //Control characters
+            string newLine = "\nmystring 1";
+            string tab = "\tmystring 2";
+            string alert = "\amystring 3";
 
         }
     }
