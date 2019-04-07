@@ -7,8 +7,8 @@ namespace Practice1
     {
         public static double CalculateArea(int radius)
         {
-            const double pi = 3.14;
-            return pi * radius * radius;
+            const double Pi = 3.14;
+            return Pi * radius * radius;
         }
 
         static void Main(string[] args)
