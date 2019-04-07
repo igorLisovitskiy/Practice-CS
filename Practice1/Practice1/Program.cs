@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Practice1
 {
@@ -18,10 +14,10 @@ namespace Practice1
             int myVariable = 2;
 
             //check presicion
-            const double pi = Math.PI;
+            const double Pi = Math.PI;
             double eNum = Math.E;
-            //WriteLine(pi); // 3.14159265358979
-            //WriteLine(eNum); // 2.71828182845905
+            Console.WriteLine(Pi); // 3.14159265358979
+            Console.WriteLine(eNum); // 2.71828182845905
             //Control characters
             string newLine = "\nmystring 1";
             string tab = "\tmystring 2";
