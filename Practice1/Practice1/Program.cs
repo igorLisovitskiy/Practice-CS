@@ -1,13 +1,10 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Practice1
 {
     class Program
     {
+
         const double Pi = Math.PI;
 
         static int Sum(long x, int y)
@@ -35,10 +32,17 @@ namespace Practice1
         static double CylinderArea(int height, int radius)
         {
             return 2 * (Pi * radius) * (radius + height);
+          
+        public static double CalculateArea(int radius)
+        {
+            const double Pi = 3.14;
+            return Pi * radius * radius;
+
         }
 
         static void Main(string[] args)
         {
+
             // Narrowing Primitive Conversion
             long n1 = 32301;
             short n2 = 15;
@@ -54,6 +58,29 @@ namespace Practice1
             Console.WriteLine(Program.ArithmeticMean(4, 4, 2));
             Console.WriteLine(Program.CylinderVolume(4, 2));
             Console.WriteLine(Program.CylinderArea(4, 2));
+
+            Console.Write("Enter a radius: ");
+            string radiusStr = Console.ReadLine();
+            int.TryParse(radiusStr, out int radius);
+            Console.WriteLine($"The area of circle is: {Program.CalculateArea(radius)}");
+
+            // check var names
+            int uberflu = 2;
+            int _identifier = 2;
+            int \u006fidentifier = 2;
+            int myVar = 2;
+            int myVariable = 2;
+
+            //check presicion
+            const double Pi = Math.PI;
+            double eNum = Math.E;
+            //Console.WriteLine(Pi); // 3.14159265358979
+            //Console.WriteLine(eNum); // 2.71828182845905
+
+            //Control characters
+            string newLine = "\nmystring 1";
+            string tab = "\tmystring 2";
+            string alert = "\amystring 3";
         }
     }
 }
