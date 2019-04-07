@@ -32,6 +32,7 @@ namespace Practice1
         static double CylinderArea(int height, int radius)
         {
             return 2 * (Pi * radius) * (radius + height);
+        }
           
         public static double CalculateArea(int radius)
         {
